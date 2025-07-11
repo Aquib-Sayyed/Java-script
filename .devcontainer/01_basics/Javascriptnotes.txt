@@ -1,1 +1,2 @@
 Const: constant cannot be change
+console.table: it helps creating output in tabular format
