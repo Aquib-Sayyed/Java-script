@@ -45,3 +45,38 @@ console.log(obj4);
 const obj5= {...obj1,...obj2} //spread operator to combining the 2 objects which is easy to use as a syntax
 
 console.log(obj5);
+
+const users = [
+{
+    id: "testid",
+    name: "Aquib"
+},
+{
+    id: "testid2",
+    name: "Aquib2"
+},
+{
+    id: "testid3",
+    name: "Aquib3"
+}
+,
+{
+    id: "testid4",
+    name: "Aquib4"
+}
+
+]
+
+console.log(users[1].email);
+
+console.log(users);
+
+console.log(Object.keys(users));
+console.log(Object.values(users));
+console.log(Object.entries(users));
+
+console.log(regularuser.hasown)
+
+const {Lastname} = regularuser;
+
+console.log(Lastname);
