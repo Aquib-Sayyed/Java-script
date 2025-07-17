@@ -80,3 +80,14 @@ console.log(regularuser.hasown)
 const {Lastname} = regularuser;
 
 console.log(Lastname);
+
+function addtwonumbers (number1 , number1)
+{
+
+    return number1 + number2
+    
+
+}
+
+// whatever we wrirte after return will not run the code
+
