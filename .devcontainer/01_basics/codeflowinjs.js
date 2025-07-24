@@ -27,6 +27,14 @@ if(useremail)
 
 // falsy values
 
-false,0,-0,BigInt 0n,"",null,undefined,NaN
+//false,0,-0,BigInt 0n,"",null,undefined,NaN
 
 // apart from these all values are true values
+
+// truthy values
+// "0", "false"," ",[],{},function(){}
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
