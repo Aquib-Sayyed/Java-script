@@ -1,0 +1,26 @@
+Templated Html helpers
+
+Used for data display and input
+It generate HTML automatically as per model
+
+Calendar from date
+Number from int
+checkbox from bool etc.
+Can generate a HTML for complete model with a single tag
+
+types of Templated html helpers
+
+Display
+	@Html.Display() : Used to display value with some extra functionality
+	@Html.DisplayFor() : Strongly binding version of last helpers
+	@Html.DisplayName() : Used to display only the name of property
+	@Html.DisplayNameFor() : Strongly binding version of last helpers
+	@Html.DisplayText() : Used to display only the value of model property
+	@Html.DisplayTextFor() : Strongly binding version of last helpers
+	@Html.DisplayForModel() : Used to display complete model data
+
+Edit/input
+	@Html.Editor()
+	@Html.EditorFor()
+	@Html.EditorForModel()
+
