@@ -1,0 +1,4 @@
+Model + view  = strongly typed
+It uses lambda expression
+@Html.TextBoxFor(model=> model.property)
+
